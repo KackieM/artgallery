@@ -6,7 +6,7 @@ angular.module('ngDay2App')
 			{
 				query: { method: 'GET', isArray: true },
 				create: { method: 'POST'}
-			});
+			};
 	})
 	.factory('PostSvc', function($resource) {
 		return $resource('api/collections/protected-garden-8476/:id'),
