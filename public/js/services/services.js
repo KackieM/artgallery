@@ -18,5 +18,5 @@ angular.module('ngDay2App')
 				edit: { method: 'PUT'},
 				delete: { method: 'DELETE'}
 			}
-			)
+			
 	});
