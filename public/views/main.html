@@ -1,14 +1,57 @@
-<div class="header">
+<!-- <div class="header">
   <ul class="nav nav-pills pull-right">
     <li class="active"><a ng-href="#">Home</a></li>
     <li><a ng-href="#/blog">Blog</a></li>
    
   </ul>
   <h3 class="text-muted">baby-mean</h3>
-</div>
+</div> -->
 
 <div class="jumbotron">
   <h1>Welcome to baby-mean</h1>
   <p><a class="btn btn-lg btn-success" ng-href="#/blog">I WANT A PEEK!</a></p>
 </div>
 
+<div ng-controller="MainCtrl">
+  <div class="header">
+
+    <h1>I'M PUTTING SOMETHING IN HERE AFTER HIPCHAT W CAL TONIGHT AND STARTING ANEW IN THE AM</h1>
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#">About</a></li>
+    <li><a ng-href="#">Contact</a></li>
+  </ul>
+  <h3 class="text-muted">Kackie Angular Project DAY THREE</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>Art of The Matter</h1>
+  <p class="lead">
+    <img src="images/grimreapermodel.jpg" alt="I'm The Grim Reaper"><br>
+    Shopping for Your Life
+  </p>
+  <p><a class="btn btn-default btn-lg active" ng-href="#">Onto Art<span class="glyphicon glyphicon-shopping-cart"></span></a></p>
+</div>
+
+<div class="row marketing">
+  <div ng-controller="ArtController as store">
+    
+
+<h4>Art Pieces</h4>
+    <p> {{store.product.name}} </p>
+    <p> {{store.product.price}} </p>
+    <p> {{store.product.description}} </p>
+ 
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, sint, esse, minima, at magnam aspernatur eveniet nihil vel molestias magni voluptas fugiat illo culpa sed impedit nulla tempora rem corporis.</p>
+
+  <h4>Should Thumbnails Go Here?</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, eos, pariatur aliquid consectetur quae ad iure facere dolorum minus quis quasi non labore ullam ipsa omnis doloremque consequatur vel eaque.
+  </p>
+
+  <h4>Should Shopping Cart Go Here?</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, culpa quia qui repellat perspiciatis nihil quasi! Saepe, nostrum eveniet quo fugit aut voluptatibus nisi minima maiores. Quidem in deleniti qui.</p>
+</div>
+
+<div class="footer">
+  <p><span class="glyphicon glyphicon-eye-open"></span> THEKACKIEPROJECT</p>
+</div>
